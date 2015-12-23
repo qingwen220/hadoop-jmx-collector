@@ -15,17 +15,13 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
       
 ## edit cronus.ini
 
-* input
+* input: "port" defines the hadoop service port, such as 50070 => "namenode", 60010 => "hbase master".
 
-"port" defines the hadoop service port, such as 50070 => "namenode", 60010 => "hbase master".
-
-* filter
-
-"monitoring.group.selected" can filter out beans which we care about. 
+* filter: "monitoring.group.selected" can filter out beans which we care about. 
 
 * output
 
-For the output, if we left it empty, then the output is stdout by default. 
+if we left it empty, then the output is stdout by default. 
 
         "output": {}
         
