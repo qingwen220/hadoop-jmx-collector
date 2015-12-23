@@ -23,7 +23,7 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
 
         "output": {}
         
-It also supports Kafka as its output. 
+  It also supports Kafka as its output. 
 
         "output": {
           "kafka": {
@@ -49,11 +49,6 @@ It also supports Kafka as its output.
             "monitoring.group.selected": ["hadoop"]
            },
            "output": {
-            "kafka": {
-              "topic": "apollo-phx_cronus_nn_jmx",
-              "brokerList": [ "druid-test-host1-556191.slc01.dev.ebayc3.com:9092",
-                    "druid-test-host2-550753.slc01.dev.ebayc3.com:9092",
-                    "druid-test-host3-550755.slc01.dev.ebayc3.com:9092"]
            }
         }
 
