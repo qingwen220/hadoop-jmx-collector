@@ -19,9 +19,7 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
 
 * filter: "monitoring.group.selected" can filter out beans which we care about. 
 
-* output
-
-if we left it empty, then the output is stdout by default. 
+* output: if we left it empty, then the output is stdout by default. 
 
         "output": {}
         
