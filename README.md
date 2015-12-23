@@ -13,7 +13,7 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
         # for eBay cronus agent
         python cronus_hadoop_jmx.py
       
-## edit cronus.ini
+## Edit cronus.ini
 
 * input: "port" defines the hadoop service port, such as 50070 => "namenode", 60010 => "hbase master".
 
@@ -34,7 +34,7 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
           }
         }
       
-#### Example
+## Example
         {
            "env": {
             "site": "apollo-phx",
