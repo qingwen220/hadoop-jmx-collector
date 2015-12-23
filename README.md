@@ -6,7 +6,7 @@ These scripts help to collect Hadoop jmx and evently sent the metrics to stdout 
   
   1. edit the configuration file `cronus.ini` (json file)
      
-  2. run the sripts
+  2. run the scripts
   
         # for general use
         python hadoop_jmx_kafka.py > 1.txt
