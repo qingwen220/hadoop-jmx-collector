@@ -207,14 +207,14 @@ def main():
         #start = time.clock()
 
         # read the kafka.ini
-        config = loadConfigFile('cronus.ini')
+        config = loadConfigFile('eagle-collector.conf')
         #print config
 
         cluster = config[u'env'].get('cluster').encode('utf-8')
         datacenter = config[u'env'].get('datacenter').encode('utf-8')
         site = config[u'env'].get('site').encode('utf-8')
-        #host = socket.getfqdn()
-        host = '10.249.66.185'
+        host = socket.getfqdn()
+        #host = '10.249.74.234'
 
         beans = loadJmxData(host, config[u'input'])
 

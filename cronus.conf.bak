@@ -12,5 +12,9 @@
     "monitoring.group.selected": ["hadoop"]
    },
    "output": {
+    "kafka": {
+        "topic": "sandbox_hdfs_audit_log",
+        "brokerList": ["sandbox.hortonworks.com:6667"]
+    }
    }
 }

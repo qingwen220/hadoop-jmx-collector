@@ -71,3 +71,4 @@ logs/
 *.log*
 # Mac files
 .DS_Store
+*.txt
