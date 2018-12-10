@@ -1,7 +1,5 @@
 #!/usr/bin/python
 # Parse jmxjson output from hadoop/hbase component
-# Author: Qingwen Zhao, qingwzhao@ebay.com, Hadoop Engineering Team, eBay Inc.
-
 
 import os
 import re
